@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Victor Santana - Portfólio</title>
+    <title>Victor Santana - Portfolio</title>
     <style>
 	body {
 		background-color: #161616;
@@ -22,7 +22,7 @@
 	}
 		
 	.box {
-		width: 500px;
+		width: 650px;
 		height: 100px;
 		margin: 30px auto;
 		background-color: #f0f0f0;
@@ -72,13 +72,12 @@
 	}
 	
 	.wrapper {
-		display: flex;
-            justify-content: space-evenly;
-            align-items: flex-start;
-            flex-wrap: wrap;
-            margin-top: 40px;
-            gap: 20px;
-            padding: 0 22px;
+        display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-top: 40px;
+		gap: 20px;
 	}
 	
 	.wrapper-small {
@@ -133,17 +132,20 @@
 	</div>
 	<h1>Portfólio de Ciência de Dados</h1>
 	<div class="wrapper">
+        <div class="box" onclick="window.open('https://github.com/VictorLSantana/FronteiraMarkowitz', '_blank')">
+            <h2>Fronteira Eficiente de Markowitz</h2>
+        </div>
 		<div class="box" onclick="window.open('https://github.com/VictorLSantana/BankChurnML', '_blank')">
 			<h2>Evasão de Clientes Bancários</h2>
 		</div>
+        <div class="box" onclick="window.open('https://github.com/VictorLSantana/WebScraping', '_blank')">
+            <h2>WebScraping Forbes</h2>
+        </div>
 		<div class="box" onclick="window.open('https://github.com/VictorLSantana/DashBoardRH', '_blank')">
 			<h2>DashBoard RH</h2>
 		</div>
 		<div class="box" onclick="window.open('https://github.com/VictorLSantana/PNS2019_UF52', '_blank')">
 			<h2>Relatório sobre a PNS2019</h2>
-		</div>
-        <div class="box" onclick="window.open('https://github.com/VictorLSantana/WebScraping', '_blank')">
-			<h2>WebScraping Forbes</h2>
 		</div>
 	</div>
 </body>
